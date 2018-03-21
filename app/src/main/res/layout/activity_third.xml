@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuario.miercoles.ThirdActivity">
+
+    <TextView
+        android:id="@+id/TitleB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soy B"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/buttonBVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <Button
+        android:id="@+id/buttonBCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="273dp" />
+</android.support.constraint.ConstraintLayout>
